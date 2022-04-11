@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
-import 'package:mobx_dart/models/post_model.dart';
-import 'package:mobx_dart/stories/home_store.dart';
+import 'package:mobx_dart/mobx_home/models/post_model.dart';
+import 'package:mobx_dart/mobx_home/stories/home_store.dart';
+
 
 Widget itemOfPost(HomeStore store,Post post) {
   return Slidable(

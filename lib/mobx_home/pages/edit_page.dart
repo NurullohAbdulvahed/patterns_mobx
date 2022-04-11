@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mobx_dart/stories/edit_store.dart';
+import 'package:mobx_dart/mobx_home/stories/edit_store.dart';
 import '../models/post_model.dart';
 
 //ignore: must_be_immutable

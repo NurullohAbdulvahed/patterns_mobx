@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:mobx_dart/stories/home_store.dart';
-import 'package:mobx_dart/view/item_of_post.dart';
+import 'package:mobx_dart/mobx_home/stories/home_store.dart';
+import 'package:mobx_dart/mobx_home/view/item_of_post.dart';
+
 
 class HomePage extends StatefulWidget {
   static String id = "";

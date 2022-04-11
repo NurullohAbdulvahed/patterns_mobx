@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mobx/mobx.dart';
-import 'package:mobx_dart/models/post_model.dart';
-import 'package:mobx_dart/services/http_service.dart';
-import 'package:mobx_dart/services/log_service.dart';
+import 'package:mobx_dart/mobx_home/models/post_model.dart';
+import 'package:mobx_dart/mobx_home/services/http_service.dart';
+import 'package:mobx_dart/mobx_home/services/log_service.dart';
 
 part 'edit_store.g.dart';
 

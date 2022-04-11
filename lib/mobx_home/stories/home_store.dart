@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:mobx/mobx.dart';
-import 'package:mobx_dart/models/post_model.dart';
-import 'package:mobx_dart/pages/create_page.dart';
-import 'package:mobx_dart/pages/edit_page.dart';
-import 'package:mobx_dart/services/http_service.dart';
-import 'package:mobx_dart/services/log_service.dart';
+import 'package:mobx_dart/mobx_home/models/post_model.dart';
+import 'package:mobx_dart/mobx_home/pages/create_page.dart';
+import 'package:mobx_dart/mobx_home/pages/edit_page.dart';
+import 'package:mobx_dart/mobx_home/services/http_service.dart';
+import 'package:mobx_dart/mobx_home/services/log_service.dart';
 part 'home_store.g.dart';
 class HomeStore = _HomeStore with _$HomeStore;
 

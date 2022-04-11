@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:mobx_dart/stories/create_store.dart';
-import 'package:mobx_dart/view/item_of_textField.dart';
+import 'package:mobx_dart/mobx_home/view/item_of_textField.dart';
+
+import '../stories/create_store.dart';
+
 
 
 

@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:mobx_dart/components/home/view/home_screen.dart';
+import 'package:mobx_dart/components/locator.dart';
+import 'package:mobx_dart/mobx_home/pages/create_page.dart';
+import 'package:mobx_dart/mobx_home/pages/home_page.dart';
 
-import 'pages/create_page.dart';
-import 'pages/home_page.dart';
 
 void main() {
+  setupLocator();
   runApp(const MyApp());
 }
 
@@ -18,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:HomePage(),
+      home:HomeScreen(),
       routes: {
         HomePage.id: (context) => const HomePage(),
         CreatePage.id: (context) => const CreatePage(),
